@@ -1,0 +1,232 @@
+p, ul, ol, blockquote, input, select {
+	font-size: 13px;
+}
+
+a {
+	color: #D00;
+}
+
+.hndle a {
+	color: #CCC;
+}
+
+.hndle a:hover {
+	color: #fff;
+}
+
+body, td, textarea, input, select, body.wp-admin, #site-title, .wrap h2, .subtitle, #poststuff h3, .metabox-holder h3, a.rsswidget, #dashboard_plugins h5, #dashboard-widgets h4, #screen-options-link-wrap, #contextual-help-link-wrap, .widefat th, .howto, .tablenav .displaying-num, p.help, p.description, span.description, .form-wrap p, h2 .nav-tab, div.sidebar-name h3, #menu-management .nav-tab, #dashboard_right_now td.b {
+	font-family: proxima-nova, arial, sans-serif;
+}
+
+.rssSummary, #dashboard_right_now .t, .postbox p, .postbox ul, .postbox ol, .postbox blockquote, #wp-version-message, #dashboard_quick_press h4, #user_info {
+	font-size: 13px;
+}
+
+#dashboard-widgets h4 {
+	font-weight: bold;
+}
+
+#site-title, .wrap h2, .subtitle {
+	color: #A00;
+	font-weight: bold;
+}
+
+#site-title {
+	text-transform: uppercase;
+}
+
+#header-logo {
+    background: url(images/aa-cannon.png) no-repeat scroll center center transparent;
+    width: 40px;
+}
+
+#adminmenuback, #adminmenuwrap {
+	background: #323232;
+    border-color: #CCCCCC;
+}
+
+#adminmenu a.menu-top, .folded #adminmenu li.menu-top, #adminmenu .wp-submenu .wp-submenu-head {
+    border-bottom-color: #212121;
+    border-top-color: #434343;
+}
+
+#adminmenu li.wp-menu-separator {
+    background: none repeat scroll 0 0 #212121;
+    border-color: #101010;
+}
+
+#adminmenu div.separator {
+    border-style: solid;
+    border-width: 1px 0 0;
+    border-color: #212121;
+    height: 1px;
+    padding: 0;
+}
+
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, #adminmenu li.current a.menu-top, .folded #adminmenu li.wp-has-current-submenu, .folded #adminmenu li.current.menu-top, #adminmenu .wp-menu-arrow, #adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head {
+    /*background-color: #A00;*/
+    background-image: none;
+    background: rgb(204,0,0); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(204,0,0,1) 0%, rgba(170,0,0,1) 36%, rgba(102,0,0,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(204,0,0,1)), color-stop(36%,rgba(170,0,0,1)), color-stop(100%,rgba(102,0,0,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(204,0,0,1) 0%,rgba(170,0,0,1) 36%,rgba(102,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(204,0,0,1) 0%,rgba(170,0,0,1) 36%,rgba(102,0,0,1) 100%); /* Opera11.10+ */
+    background: -ms-linear-gradient(top, rgba(204,0,0,1) 0%,rgba(170,0,0,1) 36%,rgba(102,0,0,1) 100%); /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc0000', endColorstr='#660000',GradientType=0 ); /* IE6-9 */
+    background: linear-gradient(top, rgba(204,0,0,1) 0%,rgba(170,0,0,1) 36%,rgba(102,0,0,1) 100%); /* W3C */
+}
+
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, #adminmenu li.current a.menu-top, #adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head {
+    border-bottom-color: #600;
+    border-top-color: #C00;
+    color: #FFF;
+    text-shadow: 0 -1px 0 #333;
+}
+
+#adminmenu a, #poststuff #edButtonPreview, #poststuff #edButtonHTML, #the-comment-list p.comment-author strong a, #media-upload a.del-link, #media-items a.delete, .plugins a.delete, .ui-tabs-nav a {
+	color: #DDD;
+}
+
+#wphead #viewsite a:hover, #adminmenu a:hover, #adminmenu ul.wp-submenu a:hover, #the-comment-list .comment a:hover, #rightnow a:hover, #media-upload a.del-link:hover, div.dashboard-widget-submit input:hover, .subsubsub a:hover, .subsubsub a.current:hover, .ui-tabs-nav a:hover, .plugins .inactive a:hover, #all-plugins-table .plugins .inactive a:hover, #search-plugins-table .plugins .inactive a:hover {
+	color: #A00;
+}
+
+#adminmenu .wp-submenu ul {
+	background-color: #A00;
+	text-shadow: 0px -1px 0px #000000;
+	filter: dropshadow(color=#000000, offx=0, offy=-1); 
+}
+
+#adminmenu .wp-submenu a:hover {
+	background-color: #C00 !important;
+	color: #fff !important;
+}
+
+#adminmenu .wp-submenu li.current, #adminmenu .wp-submenu li.current a, #adminmenu .wp-submenu li.current a:hover {
+	color: #fff;
+}
+
+#adminmenu .wp-submenu li.current {
+	text-shadow: 0px -1px 0px #000000;
+	filter: dropshadow(color=#000000, offx=0, offy=-1); 
+}
+
+#adminmenu li.wp-menu-open {
+	border-color: #600;
+}
+
+#adminmenu li.wp-has-current-submenu.wp-menu-open .wp-menu-toggle, #adminmenu li.wp-has-current-submenu:hover .wp-menu-toggle {
+	background: url(images/arrows.png) no-repeat scroll -2px 6px transparent;
+}
+
+.postbox h3, .stuffbox h3, .widefat thead tr th, .widefat tfoot tr th, h3.dashboard-widget-title, h3.dashboard-widget-title span, h3.dashboard-widget-title small, .find-box-head, .sidebar-name, #nav-menu-header, #nav-menu-footer, .menu-item-handle, #fullscreen-topbar {
+	background-image: none;
+	background: rgb(204,0,0); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(204,0,0,1) 0%, rgba(170,0,0,1) 36%, rgba(102,0,0,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(204,0,0,1)), color-stop(36%,rgba(170,0,0,1)), color-stop(100%,rgba(102,0,0,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(204,0,0,1) 0%,rgba(170,0,0,1) 36%,rgba(102,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(204,0,0,1) 0%,rgba(170,0,0,1) 36%,rgba(102,0,0,1) 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, rgba(204,0,0,1) 0%,rgba(170,0,0,1) 36%,rgba(102,0,0,1) 100%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc0000', endColorstr='#660000',GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, rgba(204,0,0,1) 0%,rgba(170,0,0,1) 36%,rgba(102,0,0,1) 100%); /* W3C */
+}
+
+.postbox, .widefat {
+	border: none;
+}
+
+.inside {
+	border-right: 1px solid #dfdfdf;
+	border-left: 1px solid #dfdfdf;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+div.postbox div.inside, #poststuff .inside {
+	margin-top: 0;
+	padding-top: 10px;
+}
+
+#quick-press, #dashboard_recent_drafts div.inside, #dashboard_right_now div.inside {
+	padding-bottom: 10px;
+}
+
+#dashboard_right_now .table_content, #dashboard_right_now .table_discussion {
+	margin-top: 10px;
+}
+
+div.sidebar-name h3, .widefat thead tr th, .widefat tfoot tr th {
+	color: #bbb;
+	text-shadow: 0px -1px 0px #000000;
+	filter: dropshadow(color=#000000, offx=0, offy=-1); 
+}
+
+.postbox h3, th.sortable a, th.sortable a, th.sortable a {
+	color: #ddd;
+	text-shadow: 0px -1px 0px #000000;
+	filter: dropshadow(color=#000000, offx=0, offy=-1); 
+}
+
+th.sortable a:hover, th.sortable a:active, th.sortable a:focus, th.sorted a span {
+	color: #fff;
+}
+
+.widget .widget-top {
+	font-size: 13px;
+}
+
+#widget-list, .postbox, #titlediv, #poststuff .postarea, .stuffbox, .widget-liquid-right .widgets-sortables, .js .closed .sidebar-name, .widefat {
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px; 
+}
+
+div.sidebar-name {
+    border-style: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-width: 0px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.postbox h3:hover, div.sidebar-name h3:hover {
+	color: #FFF;
+}
+
+input.button-primary, button.button-primary, a.button-primary {
+    background: url(images/button-grad.png) repeat-x scroll left top #444;
+    border-color: #500;
+    color: #eee;
+    font-weight: bold;
+    text-shadow: 0 -1px 0 #000;
+}
+
+input.button-primary:hover, button.button-primary:hover, a.button-primary:hover {
+    background: url(images/button-grad.png) repeat-x scroll left -1px #444;
+    border-color: #300;
+    color: #fff;
+    -webkit-box-shadow: inset 0px 0px 3px 0px #550000;
+    -moz-box-shadow: inset 0px 0px 3px 0px #550000;
+    box-shadow: inset 0px 0px 3px 0px #550000; 
+}
+
+input.button-primary:active, button.button-primary:active, a.button-primary:active {
+    background: url(images/button-grad-active.png) repeat-x scroll left top #444;
+    border-color: #333;
+    color: #fff;
+}
+
+.menu-item-handle .item-title, .menu-item-handle .item-controls {
+	color: #CCC;
+	text-shadow: none;
+	font-weight: normal;
+	font-size: 16px;
+}
+
+#wpbody .open-label span, .howto {
+	color: #CCC;
+}
+
+.show-admin-bar {
+	display:none;
+}
