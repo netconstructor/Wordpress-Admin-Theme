@@ -1,3 +1,6 @@
+/* Google Web Fonts */
+@import url(http://fonts.googleapis.com/css?family=Maven+Pro:400,700);
+
 * {
 	margin: 0;
 	padding: 0;
@@ -8,7 +11,7 @@ html {
 }
 
 body {
-	font-family: proxima-nova, arial, sans-serif;
+	font-family: 'Maven Pro', arial, sans-serif;
 	padding-top: 10px;
 	font-size: 12px;
 	background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
@@ -175,7 +178,7 @@ a, a:active, a:visited {
 }
 
 body form .input {
-	font-family: proxima-nova, arial, sans-serif;
+	font-family: 'Maven Pro', arial, sans-serif;
 	font-weight: 200;
 	font-size: 24px;
 	width: 97%;

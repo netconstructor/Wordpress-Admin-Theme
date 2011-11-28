@@ -1,3 +1,6 @@
+/* Google Web Fonts */
+@import url(http://fonts.googleapis.com/css?family=Maven+Pro:400,700);
+
 p, ul, ol, blockquote, input, select {
 	font-size: 13px;
 }
@@ -15,7 +18,7 @@ a {
 }
 
 body, td, textarea, input, select, body.wp-admin, #site-title, .wrap h2, .subtitle, #poststuff h3, .metabox-holder h3, a.rsswidget, #dashboard_plugins h5, #dashboard-widgets h4, #screen-options-link-wrap, #contextual-help-link-wrap, .widefat th, .howto, .tablenav .displaying-num, p.help, p.description, span.description, .form-wrap p, h2 .nav-tab, div.sidebar-name h3, #menu-management .nav-tab, #dashboard_right_now td.b {
-	font-family: proxima-nova, arial, sans-serif;
+	font-family: 'Maven Pro', arial, sans-serif;
 }
 
 .rssSummary, #dashboard_right_now .t, .postbox p, .postbox ul, .postbox ol, .postbox blockquote, #wp-version-message, #dashboard_quick_press h4, #user_info {
